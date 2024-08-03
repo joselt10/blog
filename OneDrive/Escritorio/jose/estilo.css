@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 900px;
+  
+    background-color: hsl(0, 0%, 92%);
+    padding: 40px ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    margin: 0 ;
+}
+#teclado{
+    margin-right: 20px;
+
+}
+.teclado3{
+    width: 50px;
+}
+.cajauno{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dos{
+    display: flex;
+    justify-content:space-between ;
+}
+.cajados{
+    display: flex;
+}
+
+.uno{
+width: 75%;
+ 
+}
+.cajatres{
+    display: flex;
+}
+.tres{
+    width: 50%;
+margin: 40px 80px 40px 80px;
+
+}
+.cajacuatro{
+    display: flex;
+   justify-content: space-between;
+ margin-top: 50px;
+}
+.a{
+    
+    
+    margin-right: 30px;
+}
+i{
+    color: orange;
+    
+}
+
+.icon{
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+  }
